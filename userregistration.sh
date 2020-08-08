@@ -1,8 +1,9 @@
 #!/bin/bash -x
 
-echo "Enter your first name :" 
+echo "Enter your first name and last name :" 
 
 read firstName 
+read lastname
 
 pattern="^[A-Z]{1}[a-z]{2}$" 
 
@@ -18,9 +19,8 @@ else
 fi
 
 
-echo "Enter your last name :" 
+#echo "Enter your last name :" 
 
-read lastname
 
 pattern="^[A-Z]{1}[a-z]{2}$" 
 
